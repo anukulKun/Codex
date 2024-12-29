@@ -117,7 +117,7 @@ const courses = [
       <div className="max-w-7xl mx-auto space-y-8">
         <div className="text-center space-y-4">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-            Accelerate growth – for you or your organization
+            Accelerate growth for you or your organization
           </h2>
           <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
             Reach goals faster with one of our plans or programs. Try one free today or contact sales to learn more.
