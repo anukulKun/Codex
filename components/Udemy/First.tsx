@@ -3,6 +3,7 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { CourseCard } from "./courcecard";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Check } from 'lucide-react'
+import Image from "next/image";
 
 
 export default function Home() {
@@ -15,7 +16,7 @@ const courses = [
     rating: 4.6,
     reviews: 47213,
     price: 3999,
-    image: "/placeholder.svg?height=200&width=380",
+    image: "/name1.png?height=200&width=380",
     isBestseller: true,
   },
   {
@@ -24,7 +25,7 @@ const courses = [
     rating: 4.3,
     reviews: 1165,
     price: 1999,
-    image: "/placeholder.svg?height=200&width=380",
+    image: "/name2.webp?height=200&width=380",
   },
   {
     title: "Complete Guide to TensorFlow for Deep Learning with Python",
@@ -32,7 +33,7 @@ const courses = [
     rating: 4.3,
     reviews: 16975,
     price: 3299,
-    image: "/placeholder.svg?height=200&width=380",
+    image: "/name3.png?height=200&width=380",
   },
   {
     title: "[2023] Tensorflow 2: Deep Learning & Artificial Intelligence",
@@ -40,7 +41,7 @@ const courses = [
     rating: 4.6,
     reviews: 13030,
     price: 3699,
-    image: "/placeholder.svg?height=200&width=380",
+    image: "/name4.jpg?height=200&width=380",
   },
 ];
 
@@ -60,14 +61,14 @@ const courses = [
                   us.
                 </p>
               </div>
-              <div className="relative h-[500px]">
-                {/* <Image
-                src="/placeholder.svg?height=500&width=600"
-                alt="Person sitting in chair"
-                width={600}
-                height={500}
-                className="absolute inset-0 object-cover"
-              /> */}
+              <div className="relative h-[500px] mb-4">
+                <Image
+                  src="/sol.svg"
+                  alt="Learning illustration"
+                  width={600}
+                  height={500}
+                  className="absolute inset-0 object-cover"
+                />
               </div>
             </div>
           </div>
