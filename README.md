@@ -5,16 +5,16 @@ A simple Web3 learning platform where you can study WEB3 Lectures of diffrent ch
 ### Tech Stack
 - Next.js  
 - Bun  
-- Web3 / Solidity  
+- Solidity  
 
 
 ### Run Locally
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/web3learn.git
+https://github.com/anukulKun/Codex.git
 
-cd web3learn
+cd Codex
 
 # Install dependencies
 bun install
